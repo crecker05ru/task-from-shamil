@@ -1,0 +1,20 @@
+body{
+    padding-left: 30px;
+}
+form{
+    display: grid;
+    grid-template-rows: 20px ;
+    grid-template-columns: 160px;
+    grid-row-gap: 10px;
+}
+
+form  input{
+    border: 5px solid rgb(114, 200, 235);
+    border-radius: 7px;
+}
+
+#submitBtn{
+    background-color: aqua;
+    color: #000;
+    border-radius: 7px;
+}
